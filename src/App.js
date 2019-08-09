@@ -3,14 +3,16 @@ import React, { Component } from 'react';
 import './css/cor-btn.css';
 
 export default class Button extends Component{
-
+    // quando a classe for instanciada, o construtor eh chamado primeiro
     constructor(props){
-
+        // herdando os props do pai
         super(props);
         this.state = { 
             mensagem : 'Olá, tudo bem?',
             buttonColor: 'initialColor',
         };
+
+        // o bind irá modificar o escopo da function setButton para global
         this.setButton = this.setButton.bind(this);
     }
  
@@ -20,10 +22,9 @@ export default class Button extends Component{
             mensagem: 'Fala mano',
             buttonColor: 'finalColor',
         });
-        
     }
 
-    render(){   
+    render() {
         return(
             <div>
                {this.state.mensagem} 
@@ -32,5 +33,4 @@ export default class Button extends Component{
 
         )
     }
-   
 }
