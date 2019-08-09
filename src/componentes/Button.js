@@ -7,7 +7,7 @@ export default class Button extends Component{
         super(props);
         this.state = { 
             mensagem : 'Olá, tudo bem?',
-            buttonColor: 'corum',
+            buttonColor: 'initialColor',
         };
         this.setButton = this.setButton.bind(this);
     }
@@ -16,7 +16,7 @@ export default class Button extends Component{
         console.log('mudou a cor')
         this.setState({ 
             mensagem: 'Fala mano',
-            buttonColor: 'cordois',
+            buttonColor: 'finalColor',
         });
         
     }
