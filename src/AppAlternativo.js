@@ -1,15 +1,11 @@
 import React from 'react'
 
 //definindo style inline para o componente
-const classStyle = {
-    color: 'red'
-}
 
 class AppAlternativo extends React.PureComponent {
     constructor(props) {
         super(props)
         this.state = {
-            msg: 'Olá mundo!',
             btnColor: 'red'
         }
         console.log('estou no construtor')
