@@ -1,0 +1,80 @@
+[
+ {
+    "buttonTab": "Investimentos Renda Fixa",
+    "children": [  
+      {
+          "title": "CDB",
+          "description": "Texto descrevendo o produto 1",
+          "link": "http://www.google.com"
+      },
+      {
+          "title": "LCI",
+          "description": "Texto descrevendo o produto 2",
+          "link": "http://www.google.com"
+      },
+      {
+          "title": "LCA",
+          "description": "Texto descrevendo o produto 3",
+          "link": "http://www.google.com"
+      },
+      {
+          "title": "Tesouro Direto",
+          "description": "Texto descrevendo o produto 4",
+          "link": "http://www.google.com"
+      },
+      {
+          "title": "CRI",
+          "description": "Texto descrevendo o produto 5",
+          "link": "http://www.google.com"
+      },
+      {
+          "title": "CRA",
+          "description": "Texto descrevendo o produto 6",
+          "link": "http://www.google.com"
+      },
+      {
+          "title": "Debêntures",
+          "description": "Texto descrevendo o produto 7",
+          "link": "http://www.google.com"
+      },
+      {
+          "title": "Poupança",
+          "description": "Texto descrevendo o produto 8",
+          "link": "http://www.google.com"
+      }
+    ]
+  },
+    {
+      "buttonTab": "Outros Investimentos",
+      "children": [
+        {
+          "title": "Fundos de Investimento",
+          "description": "Texto descrevendo o produto 9",
+          "investorMoment": "Arrojado",
+          "resgate": "Quando quiser",
+          "link": "http://www.google.com"
+        },
+        {
+          "title": "Previdência Privada",
+          "description": "Texto descrevendo o produto 10",
+          "investorMoment": "Moderado",
+          "resgate": "Quando quiser",
+          "link": "http://www.google.com"
+        },
+        {
+          "title": "Renda Variável",
+          "description": "Texto descrevendo o produto 11",
+          "investorMoment": "Arrojado",
+          "resgate": "Quando quiser",
+          "link": "http://www.google.com"
+        },
+        {
+          "title": "Ofertas Públicas",
+          "description": "Texto descrevendo o produto 12",
+          "investorMoment": "Arrojado",
+          "resgate": "Quando quiser",
+          "link": "http://www.google.com"
+        }
+      ]
+    }
+]   

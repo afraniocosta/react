@@ -1,0 +1,42 @@
+[
+ {
+    "sexo": "masculino",
+    "children": [  
+      {
+          "name": "Afrânio",
+          "age": "40",
+          "link": "http://www.google.com"
+      },
+      {
+        "name": "Theo",
+        "age": "5",
+        "link": "http://www.google.com"
+      },
+      {
+        "name": "Silvério",
+        "age": "41",
+        "link": "http://www.google.com"
+    }
+]
+  },
+  {
+    "sexo": "feminino",
+    "children": [  
+      {
+          "name": "Juliana",
+          "age": "36",
+          "link": "http://www.google.com"
+      },
+      {
+        "name": "Luzia",
+        "age": "74",
+        "link": "http://www.google.com"
+      },
+      {
+        "name": "Marilza",
+        "age": "55",
+        "link": "http://www.google.com"
+    }
+]
+  },
+]   
