@@ -1,2 +1,10 @@
 .initialColor {background-color: blue; color: white}
 .finalColor {background-color: red; color: white}
+
+.btnPosition {
+    width: 100px;
+    margin: 0 auto;
+    background-color: blue;
+    color:#fff;
+    padding: 10px
+}
