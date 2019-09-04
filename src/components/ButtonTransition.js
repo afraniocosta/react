@@ -3,33 +3,35 @@
  * Quando o botao for clicado, este deverá fazer uma transicao de 30% da metade da largura da tela
  * Ex.: se a tela for 480px de largura, entao o botao tera um transition do ponto 240px até 30% desse valor
  */
-import React, {useState,useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
+import { throttle } from 'lodash'
 import '../css/cor-btn.css';
 
-function ButtonTransition(){
+function ButtonTransition () {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
-const[moveButton, setMoveButton] = useState(0);
+  useEffect(() => {
+    const setWindowResize = throttle(() => {
+      setWindowWidth(window.innerWidth)
+    }, 200)
 
-document.addEventListener('resize', function(){
-    const windowWidth = window.innerWidth
-    console.log('a largura é' windowWidth)
-})
+    window.addEventListener('resize', setWindowResize)
+    return () => { window.removeEventListener('resize', setWindowResize) }
+  }, [])
 
-useEffect(()=>{
-  
-})
 
-return(
-    <>
+
+  return(
+    <div style={{height: '800px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
       <a
         className='btnPosition'
         href='qualquer/coisa'
-        onClick={evt => { this.setMoveButton() }}
+        onClick={evt => { console.log('hah') }}
       >
         Click
       </a>
-    </>
-)
+    </div>
+  )
 }
 
 export default ButtonTransition
