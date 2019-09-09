@@ -9,3 +9,18 @@
     color:#fff;
     padding: 10px
 }
+.initialColor {background-color: green; color: white}
+.finalColor {background-color: black; color: white}
+
+ul {list-style: none;}
+.title, .descriptiom, .moment { border: 1px solid #ccc;float: left;}
+.d-none {display: none}
+.d-block {display: block;}
+
+.btn-orange{color: orange}
+.blue{color: blue}
+
+#header {border:1px solid blue}
+#container {border:1px solid red}
+
+footer {border:1px solid orange}
