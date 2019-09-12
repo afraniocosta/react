@@ -13,3 +13,23 @@ ul {list-style: none;}
 #container {border:1px solid red}
 
 footer {border:1px solid orange}
+
+
+/*MovinhButton*/
+#btnMB {
+    width: 150px; margin: 0 auto; padding: 2px 10px 5px 10px;
+    position: relative;  top: 50px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.teste {
+    width: 150px; margin:0 0 0 100px; padding: 2px 10px 5px 10px;
+    position: relative;  top: 50px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}

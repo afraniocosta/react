@@ -1,0 +1,43 @@
+[
+
+  {
+    "name": "afranio",
+    "children": [
+      {
+        
+        "age": 41,
+        "color": "white",
+        "sexo": "masculino"
+      
+      }
+    ]
+  },
+
+  {
+    "name": "juliana",
+    "children": [
+      {
+        
+        "age": 36,
+        "color": "white",
+        "sexo": "feminino"
+      
+      }
+    ]
+  },
+
+  {
+    "name": "theo",
+    "children": [
+      {
+        
+        "age": 5,
+        "color": "white",
+        "sexo": "masculino"
+      
+      }
+    ]
+  }
+
+]
+
