@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    float: left;    
+    
+}
+.content {
+    margin: 0 auto;
+    width: 600px;
+    height: 200px;
+    top:30px;
+}
+.mt-15 {
+    margin-top: 15px;
+    float: left;
+}
+.button {
+    width: 100px;
+    height: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-right: 5px;
+}
+label {
+    float: left;
+    clear: both;
+}

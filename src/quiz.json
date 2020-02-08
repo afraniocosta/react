@@ -1,0 +1,22 @@
+[
+  {
+    "answer": "Em que ano o Cruzeiro conquistou o bi campeonato da Libertadores?",
+    "children": 
+      {
+      "one": "1976 com gol de Joazinho.",
+      "two": "Em 2002 após uma virada histórica.",
+      "trhee": "1997 com gol de Elivelton.",
+      "four": "Em 2014 nos pênaltis."
+      }
+  },
+  {
+    "answer": "2 Em que ano o Cruzeiro conquistou o bi campeonato da Libertadores?",
+    "children": 
+      {
+      "one": "1976 com gol de Joazinho.",
+      "two": "Em 2002 após uma virada histórica.",
+      "trhee": "1997 com gol de Elivelton.",
+      "four": "Em 2014 nos pênaltis."
+      }
+  }
+]
