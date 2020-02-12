@@ -13,12 +13,17 @@
     margin-top: 15px;
     float: left;
 }
-.button {
-    width: 100px;
-    height: 20px;
-    background-color: #ccc;
-    border: none;
-    margin-right: 5px;
+.button{
+width: 100px;
+height: 20px;
+background-color: #ccc;
+border: none;
+margin-right: 5px;
+}
+.botoes {
+    float: left;
+    clear: both;
+    margin-top: 20px;
 }
 label {
     float: left;
