@@ -4,7 +4,7 @@ import StepsHandler from './StepsHandler.js'
 
 function Quiz(){
   const [currentStep, setCurrentStep] = useState(0)
-  const [score, setScore] = useState(0)
+  //const [score, setScore] = useState(0)
 
   function handleNextStep () {
     // if(answer === true) {
@@ -24,8 +24,8 @@ function Quiz(){
         <div className='content'> 
           <StepsHandler currentStep={currentStep} setCurrentStep={setCurrentStep}/>
           <div className='mt-15 botoes'>
-            {currentStep != 0 ? <button className='button' onClick={handlePreviousStep}>Anterior</button>: ''}
-            {currentStep != 2 ? <button className='button' onClick={handleNextStep}>Próximo</button> : ''}
+            {currentStep !== 0 ? <button className='button' onClick={handlePreviousStep}>Anterior</button>: ''}
+            {currentStep !== 9 ? <button className='button' onClick={handleNextStep}>Próximo</button> : ''}
           </div>
         </div>
       </div>
