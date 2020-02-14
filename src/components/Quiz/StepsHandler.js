@@ -1,13 +1,14 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import InputRadio from './InputRadio'
 //import Quiz from './Quiz.js'
 
 function StepsHandler ({currentStep}) {
-  const [check, setCheck] = useState('false');
-  
-    function handleChange(evt) {
-      setCheck(console.log(evt.target.value))
-    }
+  const [check, setCheck] = useState('');
+
+  function onRadioChange(evt){
+    setCheck(evt.target.value)
+    console.log(setCheck(evt.target.value))
+  }
 
   let content = ''
   switch (currentStep) {
@@ -15,10 +16,10 @@ function StepsHandler ({currentStep}) {
       content =
         <>
           <p>1- Em que ano o Cruzeiro conquistou o bi campeonato da Libertadores?</p>
-          <label><InputRadio name="libertadores" value="2017" checked={check} onChange={handleChange} />2017 nos penaltes.</label> 
-          <label><InputRadio name="libertadores" value="1997" checked={check} onChange={handleChange} />1997 com gol de Elivelton.</label> 
-          <label><InputRadio name="libertadores" value="1996" checked={check} onChange={handleChange} />1996 com um empate de 0 a 0.</label> 
-          <label><InputRadio name="libertadores" value="1993" checked={check} onChange={handleChange} />1993 com gol nos acréscimos.</label>
+          <label><InputRadio name="libertadores" value="2017" checked={check.selectedOption === '2017'} onChange={onRadioChange} />2017 nos penaltes.</label> 
+          <label><InputRadio name="libertadores" value="1997" checked={check.selectedOption === '1997'} onChange={onRadioChange} />1997 com gol de Elivelton.</label> 
+          <label><InputRadio name="libertadores" value="1996" checked={check.selectedOption === '1996'} onChange={onRadioChange} />1996 com um empate de 0 a 0.</label> 
+          <label><InputRadio name="libertadores" value="1993" checked={check.selectedOption === '1993'} onChange={onRadioChange} />1993 com gol nos acréscimos.</label>
         </> 
       break
     case 1:

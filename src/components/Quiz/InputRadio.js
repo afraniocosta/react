@@ -5,8 +5,11 @@ function InputRadio (props) {
 
   return (
     <>
-      <input type='radio' name={props.name} value={props.value}/>
-      {console.log(props.value)}
+      <input 
+        type='radio' 
+        name={props.name} 
+        value={props.value}
+      />
     </>
   )
 }
